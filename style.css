@@ -1,0 +1,927 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif, 'Inter';
+}
+
+html {
+    font-size: 68.5%;
+}
+
+body {
+    width: 1500px;
+    margin: auto;
+    background: url(img/backgound.png);
+    background-repeat: no-repeat;
+    background-color: #FCFAFF;
+}
+
+/* header section css starts */
+.navbar {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.logo {
+    background-color: #443D5E;
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 84px;
+}
+
+.logo h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 15px;
+    margin: 57px 40px;
+    color: #7C28F2;
+    font-weight: 500px;
+    position: relative;
+}
+
+.menu .active::after {
+    content: "";
+    background-color: #7C28F2;
+    width: 27px;
+    height: 3px;
+    position: absolute;
+    border-radius: 29px;
+    bottom: -5px;
+    left: 8px;
+}
+
+.navbar .btn1 {
+    display: inline-flex;
+    background-color: white;
+    color: #7624EA;
+    padding: 19px 40px;
+    border: none;
+    border-radius: 26px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 136px;
+    opacity: 0;
+}
+
+/* header section ends */
+/* home page css starts */
+.home-page {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 960px;
+}
+
+.home-page img {
+    margin-left: 95px;
+    margin-top: 100px;
+}
+
+.home-page .content h1 {
+    width: 617px;
+    font-size: 70px;
+    font-weight: 700px;
+    color: #443D5E;
+    margin-left: 85px;
+    margin-top: 20px;
+    line-height: 89px;
+}
+
+.home-page .content .btn {
+    width: 204px;
+    height: 72px;
+    border-radius: 26px;
+    background: #443D5E;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 85px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.home-page .content .Viewmore {
+    color: #7C28F2;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+/* home page css ends */
+/* business section css starts */
+.business-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 85px;
+}
+
+.business-section .heading h5 {
+    color: #7C28F2;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.business-section .heading h1 {
+    color: #443D5E;
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0.5px;
+    width: 531px;
+    margin-top: 5px;
+}
+
+.business-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 64px;
+}
+
+.business-content .webdevelopment {
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 6px 11px 0px rgba(33, 7, 70, 0.08);
+    width: 321px;
+    height: 238px;
+}
+
+.business-content .webdevelopment p {
+    color: rgba(33, 7, 70, 0.65);
+    width: 252px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 31px;
+    margin-top: 29px;
+}
+
+.business-content .content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.business-content .webdevelopment .content .image {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    background: #9CEDA4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 31px;
+    margin-top: 29px;
+}
+
+.business-content .content h1 {
+    color: #210746;
+    font-family: Raleway;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 0.23px;
+    width: 210px;
+    margin-top: 34px;
+    margin-left: 15px;
+}
+
+.business-content .Interface-design {
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 6px 11px 0px rgba(33, 7, 70, 0.08);
+    width: 321px;
+    height: 238px;
+}
+
+.business-content .Interface-design p {
+    color: rgba(33, 7, 70, 0.65);
+    width: 252px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 31px;
+    margin-top: 29px;
+}
+
+.business-content .Interface-design .content .image {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    background: #EDA69C;
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 31px;
+    margin-top: 29px;
+}
+
+.business-content .Experience-design {
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 6px 11px 0px rgba(33, 7, 70, 0.08);
+    width: 321px;
+    height: 238px;
+}
+
+.business-content .Experience-design p {
+    color: rgba(33, 7, 70, 0.65);
+    width: 252px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 31px;
+    margin-top: 29px;
+}
+
+
+.business-content .Experience-design .content .image {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    background: #9CEDE8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 31px;
+    margin-top: 29px;
+}
+
+/* business section css ends */
+/* viewmore button css starts */
+.button-viewmore {
+    margin-top: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-viewmore .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 187px;
+    height: 58px;
+    border-radius: 29px;
+    background: #443D5E;
+}
+
+.button-viewmore .btn a {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.dot-bg {
+    width: 400px;
+    margin-left: 0px;
+}
+
+/* viewmore button css ends */
+/* about section css starts */
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+
+.about-section .circle img {
+    position: absolute;
+    bottom: 270px;
+    left: 795px;
+}
+
+.about-section .heading h5 {
+    margin-left: 85px;
+    color: #7C28F2;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.about-section .heading h1 {
+    width: 531px;
+    color: #443D5E;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0.5px;
+    margin-left: 85px;
+}
+
+.about-section .heading p {
+    width: 525px;
+    color: rgba(33, 7, 70, 0.65);
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 43px;
+    margin-left: 85px;
+}
+
+.about-section .heading button {
+    width: 187px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 29px;
+    background: #443D5E;
+    cursor: pointer;
+    border: none;
+    margin-left: 85px;
+    margin-top: 32px;
+    color: #FFF;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.about-section .percentage {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 560px;
+    height: 355px;
+    border-radius: 15px;
+    border: 2px solid #FFF;
+    background: linear-gradient(112deg, rgba(255, 255, 255, 0.60) 1.83%, rgba(255, 255, 255, 0.10) 100%);
+    backdrop-filter: blur(5.5px);
+    margin-right: 95px;
+}
+
+.about-section .percentage .icon {
+    text-align: center;
+    margin-top: 42px;
+}
+
+.about-section .percentage .icon p {
+    color: rgba(68, 61, 94, 0.80);
+
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.about-section .percentage .icon span {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.about-section .percentage .icon.arrow {
+    width: 15px;
+    height: 17px;
+    color: #6CF24A;
+}
+
+/* about section css ends */
+/* acheivements section css starts */
+.acheivements-section {
+    margin-top: 171px;
+}
+
+.acheivements-section .heading h1 {
+    text-align: center;
+    color: #443D5E;
+    font-family: "Raleway", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0.28px;
+}
+
+.acheivements-section .acheivements-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1260px;
+    height: 197px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #443D5E;
+    box-shadow: 0px 4px 9px 0px rgba(33, 7, 70, 0.10);
+    margin: 17px auto auto auto;
+}
+
+.acheivements-section .acheivements-content .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.acheivements-section .acheivements-content span {
+    width: 45.86px;
+    color: #FFF;
+    font-size: 38px;
+    font-weight: 500;
+    letter-spacing: 0.38px;
+}
+
+.acheivements-section .acheivements-content p {
+    color: #FFF;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.24px;
+    margin-top: 8px;
+}
+
+/* acheivements section css ends */
+/* feedback section starts */
+.feedback-section .heading p {
+    color: #7C28F2;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 209px;
+    margin-left: 85px;
+}
+
+.feedback-section .heading h1 {
+    color: #443D5E;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0.5px;
+    width: 531px;
+    margin-left: 85px;
+    margin-top: 16px;
+}
+
+.feedback-section .feedback-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feedback-section .feedback-content .content {
+    width: 426px;
+    height: 223px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 11px 15px 0px rgba(33, 7, 70, 0.06);
+    margin-left: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 46px;
+}
+
+.feedback-section .feedback-content .content p {
+    width: 371px;
+    color: rgba(33, 7, 70, 0.65);
+    margin-left: 34px;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.feedback-section .feedback-content .client img {
+    margin-top: 20px;
+    margin-left: 34px;
+}
+
+.feedback-section .feedback-content .content .client {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.feedback-section .feedback-content .content .client .client-name h4 {
+    color: #210746;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.feedback-section .feedback-content .content .client .client-name span {
+    color: rgba(33, 7, 70, 0.60);
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+/* feedback section ends */
+/*  */
+.business-call {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 131px;
+    margin-bottom: 171px;
+    width: 100%;
+}
+
+.business-call .image img {
+    margin-left: 85px;
+}
+
+.business-call .heading h1 {
+    color: #443D5E;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0.5px;
+    width: 475px;
+}
+
+.business-call .heading button {
+    width: 187px;
+    height: 58px;
+    border-radius: 29px;
+    background: #443D5E;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    margin-top: 28px;
+}
+
+/*  */
+
+/* footer section starts */
+footer {
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    width: 1260px;
+    height: 379px;
+    border-radius: 50px 50px 0px 0px;
+    background: #443D5E;
+    margin: auto;
+}
+
+.footer-container .footer-logo .heading {
+    display: flex;
+}
+
+.footer-container .footer-logo h1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+    background: #FFF;
+    color: #7624EA;
+    font-size: 28px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 53px;
+    margin-left: 50px;
+}
+
+.footer-container .footer-logo h2 {
+    margin-top: 60px;
+    margin-left: 17px;
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.36px;
+}
+
+.footer-container .content p {
+    width: 361px;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 31px;
+    margin-left: 44px;
+    margin-top: 32px;
+}
+
+.footer-container .content button {
+    width: 125px;
+    height: 38px;
+    border-radius: 29px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-left: 44px;
+    margin-top: 25px;
+}
+
+.footer-container .about-us h1,
+.footer-container .support h1,
+.footer-container .contact h1 {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 61px;
+}
+
+.footer-container .about-us p,
+.footer-container .support p {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 34px;
+}
+
+.footer-container .contact .address {
+    color: #FFF;
+    margin-top: 53px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 228px;
+    display: block;
+}
+
+.footer-container .contact .number {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.footer-container .contact p {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* footer section ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media quarries */
+@media (max-width:660px)and (min-width:200px) {
+
+    /* html{
+        font-size: 55%;
+    } */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 660px;
+        background: url(img/bg2.png)no-repeat;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 0px;
+        /* display: none; */
+    }
+
+    .navbar .menu {
+        display: flex;
+        margin-right: 27px;
+        margin-left: 130px;
+        gap: 2px;
+    }
+
+    .navbar .menu a {
+        margin: 57px 15px;
+    }
+
+    .navbar .logo {
+        margin-left: 48px;
+        position: absolute;
+    }
+
+    .navbar .btn1 {
+        opacity: 1;
+        margin-right: 51px;
+    }
+
+    .home-page {
+        height: 100%;
+    }
+
+    .home-page img {
+        margin-top: 505px;
+        margin-left: 60px;
+    }
+
+    /* .home-page img, */
+    .home-page .content h1,
+    .home-page .content .btn {
+        margin-left: 48px;
+    }
+
+    .business-section {
+        margin-left: 48px;
+        margin-top: 121px;
+    }
+
+    .business-content {
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        margin-left: 48px;
+        overflow: scroll;
+    }
+
+    .business-content .webdevelopment,
+    .business-content .Experience-design,
+    .business-content .Interface-design {
+        width: 100%;
+    }
+
+    .button-viewmore {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: flex-start;
+        margin-top: 115px;
+    }
+
+    .about-section .heading {
+        margin-left: 0px;
+    }
+
+    .about-section .heading h5,
+    .about-section .heading h1,
+    .about-section .heading p,
+    .about-section .heading button {
+        margin-left: 48px;
+    }
+
+    .about-section .percentage {
+        margin-left: 85px;
+        margin-top: 79px;
+        margin-bottom: 0px;
+    }
+
+    .about-section .circle {
+        position:absolute;
+        bottom: -10px;
+        left: -750px;
+    }
+    .dot-bg{
+        display: none;
+    }
+    .acheivements-section {
+        display: none;
+    }
+
+    .business-call {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .business-call .image img {
+        margin-left: 0px;
+    }
+
+    .business-call .heading {
+        text-align: center;
+        margin-top: 55px;
+    }
+
+    .feedback-section {
+        margin-left: 0px;
+        margin-top: 85px;
+    }
+
+    .feedback-section .heading h1,
+    .feedback-section .heading p {
+        margin-left: 48px;
+    }
+
+    .feedback-section .feedback-content {
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        width: 100%;
+        overflow: scroll;
+    }
+
+    .feedback-section .feedback-content .content {
+        margin-left: 48px;
+    }
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 561px;
+        height: 655px;
+        margin: auto;
+    }
+
+    .footer-container .about-us p,
+    .footer-container .support p,
+    .footer-container .contact p,
+    .footer-container .contact .address {
+        display: none;
+    }
+
+    .footer-container .content {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .footer-container .content p,
+    .footer-container .content button {
+        margin-left: 0;
+    }
+
+    .footer-container .footer-logo .heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-container .footer-logo .heading h1 {
+        margin-left: 0;
+    }
+
+    .footer-container .support h1,
+    .footer-container .contact h1 {
+        margin-top: 39px;
+    }
+}
